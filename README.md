@@ -37,7 +37,7 @@ source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 pip install -r requirements.txt
 ```
 
-4. Usage
+4. ## Usage
 ### Basic Wordlist Generation
 
 Generate a wordlist from a list of words:
