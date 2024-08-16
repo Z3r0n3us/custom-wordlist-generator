@@ -15,7 +15,7 @@ The **Custom Wordlist Generator** is a Python-based tool designed for penetratio
 
 
 ## Docker Installation Option:  
-https://github.com/Z3r0n3us/custom-wordlist-generator/Docker/README.md
+https://github.com/Z3r0n3us/custom-wordlist-generator/blob/main/Docker/README.md
 
 ## Regular Installation
 1. **Clone the Repository**:
