@@ -13,11 +13,14 @@ The **Custom Wordlist Generator** is a Python-based tool designed for penetratio
 - **Password Patterns**: Generate passwords following specific patterns (e.g., start with uppercase, followed by digits).
 - **Random Password Generation**: Generate completely random passwords based on the specified character sets and length.
 
-## Installation
 
+## Docker Installation Option:  
+https://github.com/Z3r0n3us/custom-wordlist-generator/Docker/README.md
+
+## Regular Installation
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/custom-wordlist-generator.git
+   git clone https://github.com/Z3r0n3us/custom-wordlist-generator.git
    cd custom-wordlist-generator
 Set Up the Environment:
 
@@ -78,6 +81,7 @@ If --min-length is greater than --max-length:
 Error: The minimum length cannot be greater than the maximum length.
 Contributing
 Contributions are welcome! Please feel free to submit a Pull Request or open an issue.
+
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
