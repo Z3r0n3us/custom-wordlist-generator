@@ -4,13 +4,13 @@ This directory contains the Docker setup for the Custom Wordlist Generator tool.
 
 ## Building the Docker Image
 
-### 
 1. Navigate to this directory:
    ```bash
    cd docker
 
-Build the Docker image:
-'''docker build -t wordlist-generator .
+2. Build the Docker image:
+   '''bash
+   docker build -t wordlist-generator .
 
 
 Running the Docker Container
