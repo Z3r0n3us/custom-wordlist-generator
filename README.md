@@ -22,54 +22,71 @@ https://github.com/Z3r0n3us/custom-wordlist-generator/blob/main/Docker/README.md
    ```bash
    git clone https://github.com/Z3r0n3us/custom-wordlist-generator.git
    cd custom-wordlist-generator
-Set Up the Environment:
+   
+2. Set Up the Environment:
 
 It's recommended to use a Python virtual environment:
-
+```
 python -m venv venv
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-Install Dependencies:
+```
 
-Install the required Python packages:
+3. Install the required Python packages:
 
+```
 pip install -r requirements.txt
-Usage
-Basic Wordlist Generation
+```
+
+4. Usage
+### Basic Wordlist Generation
+
 Generate a wordlist from a list of words:
-
-
+```
 python wordlist_generator.py --words admin root password --output my_wordlist.txt
-Generate Random Passwords
+```
+
+### Generate Random Passwords
+
 Generate random passwords with specific character sets and lengths:
 
-
+```
 python wordlist_generator.py --random --charset lower,upper,digits --min-length 10 --max-length 15 --output random_passwords.txt
-Generate Wordlist with Leetspeak Variations
+```
+
+### Generate Wordlist with Leetspeak Variations
+
 Generate a wordlist that includes leetspeak variations of the provided words:
-
-
+```
 python wordlist_generator.py --words password secret --leetspeak --output leetspeak_wordlist.txt
-Specify Exact Password Length
+```
+
+### Specify Exact Password Length
+
 Generate passwords with an exact length:
-
-
+```
 python wordlist_generator.py --random --charset lower,upper,digits,special --length 12 --output exact_length_passwords.txt
-Using a Password Pattern
+```
+
+###Using a Password Pattern
+
 Generate passwords following a specific pattern:
-
-
+```
 python wordlist_generator.py --random --pattern "Uld" --output patterned_passwords.txt
+```
+
 Example pattern Uld: Uppercase, lowercase, digit.
 
-Help and Examples
+### Help and Examples
 To view all available options and examples, run:
-
-
+```
 python wordlist_generator.py --help
-Error Handling and Tips
+```
+
+### Error Handling and Tips
 If you do not provide the required arguments, the script will guide you on what to do:
 
-If no words or random flag is provided:
+
+### If no words or random flag is provided:
 
 
 Error: You must provide at least one of the following:
